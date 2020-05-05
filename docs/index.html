@@ -25,7 +25,10 @@
     </header>
     <main>
         <p-content>contents</p>
-        <p>東京都、今のお天気は?</p>
+            <div id="app">
+                {{ message }}
+            </div>
+
         <p>※ここにはyahooのお天気情報を引っ張ってくる</p>
 
         <p>なに着る</p>
@@ -39,9 +42,7 @@
         
       Copyright&copy; Ryuji Itagaki</footer>
 
-    <div id="app">
-        {{ message }}
-    </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
