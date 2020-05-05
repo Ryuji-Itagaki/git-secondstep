@@ -1,4 +1,4 @@
-.h1{
+h1{
 color:black;
 width: 151px;
     padding: 26px 0 0;
@@ -9,8 +9,8 @@ margin: auto;
 
 }
 
-.h2{
+h2{
     color:dimgray;
-    font: size 30px;
+    font-size:15px;
 
 }
