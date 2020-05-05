@@ -7,16 +7,20 @@ h1{
 font-weight:bold;
 font-style:nomal;
 }
+
+h2{
+    color:white;
+    background-color: black;
+    font-size:30px;
+    margin:25 padding:25;
+}
+
  img{
      margin:25 padding:0
  }
 
-h2{
-    color:dimgray;
-    font-size:30px;
-    margin:0 padding:25;
-}
+
 h3{
-    color:black
-    font-size:15px;
+    color:dimgray
+    font-size:30px;
     margin-top:30;
