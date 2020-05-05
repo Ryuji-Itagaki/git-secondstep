@@ -1,7 +1,7 @@
 h1{
     color:black;
     font-size:45px;
-    width: 151px;
+    width: 60px;
     margin:25 padding:25
     height: 0;
 font-weight:bold;
@@ -13,8 +13,19 @@ h2{
     background-color: black;
     font-size:30px;
     margin:25 padding:25;
-    display:table-cell;
+    display:
 }
+#yoko {
+    list-style: none;
+  }
+  
+  #yoko li {
+    width: 140px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+  }
 
  img{
      margin:25 padding:0
@@ -22,6 +33,6 @@ h2{
 
 
 h3{
-    color:dimgray
+    color:dimgray;
     font-size:30px;
     margin-top:30;
