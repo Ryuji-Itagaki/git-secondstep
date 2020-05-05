@@ -1,7 +1,7 @@
 h1{
     color:black;
     font-size:60px;
-    margin:25 padding:0
+    margin:0 padding:0
     height: 0;
 font-weight:bold;
 font-style:nomal;
@@ -10,7 +10,7 @@ font-style:nomal;
 h2{
     color:white;
     background-color: black;
-    font-size:30px;
+    font-size:20px;
     margin:25 padding:25;
     display:
 }
