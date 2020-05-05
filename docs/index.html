@@ -56,7 +56,7 @@
                 getData: async function(){
                     const response = await axios.get('data.json')
                     console.log(response.data);
-                    let forecasts1 = response.data.forecasts[1];
+                    let forecasts1 = response.data.msg.forecasts[1];
 
     console.log( forecasts1.dateLabel + 'の天気は、' + forecasts1.telop + ' 最高気温は' + forecasts1.temperature.max.celsius + ' 度です。' );
 
